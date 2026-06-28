@@ -148,4 +148,4 @@ VALUES
 ('admin','$2a$10$okU0YaU2yy/l769yVNZCU.zjkxlJiHTeZfBdLn9iyy3GqjeaYb6Um','System Admin',
  'admin@test.com','ADMIN','password'),
 ('teacher','$2a$10$okU0YaU2yy/l769yVNZCU.zjkxlJiHTeZfBdLn9iyy3GqjeaYb6Um','Teacher',
- 'teacher1@test.com','TEACHER','password')
+ 'teacher1@test.com','TEACHER','password');
