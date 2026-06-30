@@ -140,7 +140,23 @@ CREATE TABLE results (
     FOREIGN KEY (exam_id) REFERENCES exams(id)
 );
 
+SET SQL_SAFE_UPDATES = 0;
+delete from audit_log;
 
+delete from question_options;
+
+delete from refresh_tokens;
+
+delete from student_answers;
+delete from student_attempt_questions;
+delete from student_exam_assignment;
+delete from student_exam_attempt;
+
+delete from results;
+
+delete from exams;
+delete from questions;
+delete from users where ROLE='STUDENT'
 
 INSERT INTO users
 (username,password,full_name,email,role,display_password)
